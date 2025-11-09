@@ -1,0 +1,197 @@
+[
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.AnalyticsController",
+    "Method": "GetRequestHistory",
+    "RelativePath": "api/Analytics/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.AnalyticsController",
+    "Method": "GetUsageSummary",
+    "RelativePath": "api/Analytics/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EquipmentLendingAPI.Models.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EquipmentLendingAPI.Models.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.AuthController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Auth/user/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.EquipmentController",
+    "Method": "AddEquipment",
+    "RelativePath": "api/Equipment/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EquipmentLendingAPI.Models.EquipmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.EquipmentController",
+    "Method": "DeleteEquipment",
+    "RelativePath": "api/Equipment/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.EquipmentController",
+    "Method": "EditEquipment",
+    "RelativePath": "api/Equipment/edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "EquipmentLendingAPI.Models.EquipmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.EquipmentController",
+    "Method": "GetAllEquipment",
+    "RelativePath": "api/Equipment/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.RequestController",
+    "Method": "ApproveRequest",
+    "RelativePath": "api/Request/approve/{requestId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.RequestController",
+    "Method": "RejectRequest",
+    "RelativePath": "api/Request/reject/{requestId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.RequestController",
+    "Method": "RequestEquipment",
+    "RelativePath": "api/Request/request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EquipmentLendingAPI.Models.EquipmentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EquipmentLendingAPI.Controllers.RequestController",
+    "Method": "MarkAsReturned",
+    "RelativePath": "api/Request/return/{requestId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
